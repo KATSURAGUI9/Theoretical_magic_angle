@@ -30,7 +30,7 @@ MEMBRANE_THICKNESS = 60e-9  # 60 nm
 
 # 激光参数
 WAVELENGTH = 1030e-9      # 1030 nm
-E0_DEFAULT = 1e9          # 默认电场强度 V/m
+E0_DEFAULT = 2.6e8          # 默认电场强度 V/m
 
 # 数值计算参数
 N_PERIODS = 10            # 积分时长（光周期数）
