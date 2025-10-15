@@ -9,7 +9,7 @@ WAVELENGTH = 1030e-9
 E0 = 1e9
 REFRACTIVE_INDEX = 3.6
 MEMBRANE_THICKNESS = 60e-9
-theta_foil = 0   # ✓ 修复：使用θ_foil=0°让条纹平行薄膜，产生块状图样
+theta_foil = 30   # ✓ 修复：使用θ_foil=0°让条纹平行薄膜，产生块状图样
 theta_laser = 45
 t_snapshot = 0  # ✓ 修复：使用t=0看静态干涉，而不是300fs（87个周期）
 
