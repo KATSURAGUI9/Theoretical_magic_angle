@@ -9,8 +9,8 @@ n = 3.6
 d = 60e-9
 
 # 关键配置：让薄膜接近垂直，激光斜入射
-theta_foil = 35    # 薄膜法向几乎水平 → 薄膜接近垂直
-theta_laser = 65   # 激光从左下斜入射
+theta_foil = 45    # 薄膜法向几乎水平 → 薄膜接近垂直
+theta_laser = 75   # 激光从左下斜入射
 
 def fresnel_p(theta_in, n):
     """p偏振Fresnel系数"""
